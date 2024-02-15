@@ -10,6 +10,10 @@ module org.assignment01.assignment01 {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires jfreechart;
+    requires javafx.swing;
+    requires okhttp3;
+    requires com.google.gson;
 
     opens org.assignment01.assignment01 to javafx.fxml;
     exports org.assignment01.assignment01;
